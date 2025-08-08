@@ -1,0 +1,39 @@
+
+button {
+	position: relative;
+	outline: none;
+	border: none;
+	border-radius: 99px;
+	padding: 1rem 2rem;
+	background-color: transparent;
+	overflow: visible;
+	color: white;
+	opacity: 0;
+	font-family: "Dosis", sans-serif;
+}
+
+#wibble {
+	filter: url(#shadow);
+}
+
+button:focus .focus {
+	filter: url(#border);
+}
+
+button span {
+	position: relative;
+	z-index: 2;
+	font-size: var(--step-0);
+}
+
+.btn_svg {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	left: 15%;
+	width: 75%;
+	transform: translateY(-46%);
+	z-index: 1;
+	overflow: visible;
+	pointer-events: none;
+}

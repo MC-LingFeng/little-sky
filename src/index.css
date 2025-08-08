@@ -1,0 +1,27 @@
+:root {
+  --primary-mark: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Plain, sans-serif;
+}
+
+ul,li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
